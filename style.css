@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+}
+
+body{
+  font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', 'Meiryo','ＭＳ ゴシック',sans-serif;
+}
+
+h1{
+  border-bottom: 2px solid lightgray;
+  background: lightgreen;
+  line-height: 64px;
+}
+
+.container{
+  border: 2px solid lightgray;
+  border-radius: 2px;
+  width: 600px;
+  margin: 64px auto 64px;
+  text-align: center;
+  background: lightgoldenrodyellow;
+  box-shadow: 0 0 8px gray;
+}
+
+h2{
+  margin: 32px 0;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  cursor: pointer;
+  opacity: .3;
+}
+
+p{
+  margin: 32px;
+}
